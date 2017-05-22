@@ -21,6 +21,7 @@ include $(INCLUDE_DIR)/cmake.mk
 
 define Package/ovsd
   SECTION:=net
+  SUBMENU:=Open vSwitch
   CATEGORY:=Network
   DEPENDS:=+openvswitch +libubox +libubus +netifd
   TITLE:=Open vSwtich configuration daemon for netifd
